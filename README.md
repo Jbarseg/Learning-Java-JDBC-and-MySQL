@@ -1,6 +1,6 @@
 # Learning JDBC and MySQL - Java
 
-The first step you have to do is download MySQL at the following link: [MySQL Installer](https://dev.mysql.com/downloads/windows/installer/8.0.html)
+The first step you have to do is download MySQL at the following link: [MySQL Installer](https://dev.mysql.com/downloads/windows/installer/8.0.html).
 
 When installing MySQL, you must choose your preferred MySQL server version and MySQL Workbench version.
 
@@ -13,6 +13,9 @@ SQL is Structured Query Language
 Important: A database schema defines how data is organized within a relational database
 
 1. Click Connect to Database
+
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+
 2. You can then choose the hostname and port of your server and also the username and password of the person who manages the database.
 3. On the left you can find Administration and Schemas.
 4. To create a new schema, we can use the right mouse button to choose Create schema and choose the name of our new Schema.
