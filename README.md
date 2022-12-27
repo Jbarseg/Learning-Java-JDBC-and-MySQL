@@ -4,7 +4,7 @@ The first step you have to do is download MySQL at the following link: [MySQL In
 
 When installing MySQL, you must choose your preferred MySQL server version and MySQL Workbench version.
 
-When we already install MySQL, we proceed to create a new database, you can ask for all the steps to create a new database on ChatGPT: https://chat.openai.com/chat
+When we already install MySQL, we proceed to create a new database, you can ask for all the steps to create a new database on [ChatGPT](https://chat.openai.com/chat).
 
 SQL is Structured Query Language
 
