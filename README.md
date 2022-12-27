@@ -1,8 +1,11 @@
 # Learning JDBC and MySQL - Java
 
 The first step you have to do is download MySQL at the following link: https://dev.mysql.com/downloads/windows/installer/8.0.html
+
 When installing MySQL, you must choose your preferred MySQL server version and MySQL Workbench version.
+
 When we already install MySQL, we proceed to create a new database, you can ask for all the steps to create a new database on ChatGPT: https://chat.openai.com/chat
+
 SQL is Structured Query Language
 
 ## What we can do to create a new database is to click on Database and follow the next steps:
