@@ -1,9 +1,23 @@
 package com.jbarseg.jdbc;
 
+import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
 public final class JDBCIntroduction {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
         System.out.println("Hello World!");
         //Connection String
         String url = "jdbc:mysql://localhost:3306/test?useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true";
+        Connection connection = DriverManager.getConnection(url, "root", "admin");
+        //Execute a MySQL DML Sentence
+        Statement statement = connection.createStatement();
+        String sql = "SELECT usernameid, name, lastname, email, phonenumber FROM person";
+        ResultSet result = statement.executeQuery(sql);
+        while (result.next()){
+            System.out.println("Usernameid: " + result.getInt("usernameid") + ". " + result.getString("name"));
+        }
     }
 }
