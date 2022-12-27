@@ -8,6 +8,8 @@ When we already install MySQL, we proceed to create a new database, you can ask 
 
 SQL is Structured Query Language
 
+# Learning how to use MySQL Workbench
+
 ## What we can do to create a new database is to click on Database and follow the next steps:
 
 Important: A database schema defines how data is organized within a relational database
@@ -78,3 +80,13 @@ Important: DML is Data Manipulation Language
 - DELETE: We can delete a specific variable of our table or all our table data.
 
   DELETE FROM 'TableName' WHERE usernameid = 1;
+
+  # Learning how to use JDBC
+
+  JDBC = Java Database Connectivity
+
+  ## Creating a Java JDBC Project
+
+  1. Create a Maven or Gradle project
+  2. Add the dependency of MySQL, to find the steps to add the dependency to Maven or Gradle you can ask [ChatGPT](https://chat.openai.com/chat)
+  3. Add the connection string to the main Java Class (each database has one different connection string) you can ask to [ChatGPT](https://chat.openai.com/chat), search in [Google](google.com) or find the specific connection string for MySQL in the classes of this repository
