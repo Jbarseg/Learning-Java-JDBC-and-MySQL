@@ -1,4 +1,4 @@
-# Learning JDBC - Java
+# Learning JDBC and MySQL - Java
 
 The first step you have to do is download MySQL at the following link: https://dev.mysql.com/downloads/windows/installer/8.0.html
 When installing MySQL, you must choose your preferred MySQL server version and MySQL Workbench version.
