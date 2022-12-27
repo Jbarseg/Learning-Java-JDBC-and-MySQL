@@ -14,7 +14,7 @@ Important: A database schema defines how data is organized within a relational d
 
 1. Click Connect to Database
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![Connect to Database](https://www.mysqltutorial.org/wp-content/uploads/2019/09/connect-to-mysql-mysql-workbench-step-1.png)
 
 2. You can then choose the hostname and port of your server and also the username and password of the person who manages the database.
 3. On the left you can find Administration and Schemas.
