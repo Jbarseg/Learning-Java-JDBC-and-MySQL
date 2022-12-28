@@ -93,3 +93,5 @@ Important: DML is Data Manipulation Language
   4. After connecting our Database with Java we are available to do whatever we want to do with our database.
 
   To find how to do some DML Sentences or other actions with our database you can enter to [JDBCIntroduction](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/jdbcintroduction/src/main/java/com/jbarseg/jdbc/JDBCIntroduction.java)
+
+  The class who is going to be in charge of the DML Sentences is called DAO (Data Access Object) which is a Design Pattern
