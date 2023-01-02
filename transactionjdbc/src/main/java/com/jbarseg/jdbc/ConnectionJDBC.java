@@ -12,7 +12,7 @@ public class ConnectionJDBC {
     private static final String JDBC_USER = "root";
     private static final String JDBC_PASSWORD = "admin";
 
-    //We create a method to access to our Database
+    //We create a method to access to our Database 
     public static Connection getConnection() throws SQLException{
         return DriverManager.getConnection(JDBC_URL, JDBC_USER, JDBC_PASSWORD);
     }
@@ -33,4 +33,5 @@ public class ConnectionJDBC {
         cn.close();
     }
 
+    
 }

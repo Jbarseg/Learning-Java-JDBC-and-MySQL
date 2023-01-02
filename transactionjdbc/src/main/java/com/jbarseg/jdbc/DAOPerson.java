@@ -9,6 +9,15 @@ public class DAOPerson {
     private final static String SQL_INSERT = "INSERT INTO person(name, lastname, email, phonenumber) VALUES(?, ?, ?, ?)";
     private final static String SQL_UPDATE = "UPDATE person SET name = ?, lastname = ?, email = ?, phonenumber = ? WHERE usernameid = ?";
     private final static String SQL_DELETE = "DELETE FROM person WHERE usernameid = ?";
+    private Connection transaConnection;
+
+    public DAOPerson(){
+
+    }
+
+    public DAOPerson (Connection transaConnection){
+        this.transaConnection = transaConnection;
+    }
 
     //Sentence DML - Select
     public List <Person> select() throws SQLException{
@@ -17,8 +26,8 @@ public class DAOPerson {
         ResultSet rs = null;
         Person person = null;
         List<Person> persons = new ArrayList<>();
-
-        conn = ConnectionJDBC.getConnection();
+        //If the transactional connection object is not null then we use transactional connection, otherwise we get a new connection
+        conn = this.transaConnection != null ? this.transaConnection : ConnectionJDBC.getConnection();
         prepState = conn.prepareStatement(SQL_SELECT);
         rs = prepState.executeQuery();
         while(rs.next()){
@@ -30,10 +39,11 @@ public class DAOPerson {
             person = new Person(usernameid, name, lastname, email, phonenumber);
             persons.add(person);
         }
-
         ConnectionJDBC.close(rs);
         ConnectionJDBC.close(prepState);
-        ConnectionJDBC.close(conn);
+        if (this.transaConnection == null){
+            ConnectionJDBC.close(conn);
+        }
 
         return persons;
     }
@@ -42,8 +52,8 @@ public class DAOPerson {
         Connection conn = null;
         PreparedStatement prepState = null;
         int registros = 0;
-
-        conn = ConnectionJDBC.getConnection();
+        //If the transactional connection object is not null then we use transactional connection, otherwise we get a new connection
+        conn = this.transaConnection != null ? this.transaConnection : ConnectionJDBC.getConnection();
         prepState = conn.prepareStatement(SQL_INSERT);
         prepState.setString(1, person.getName());
         prepState.setString(2, person.getLastname());
@@ -52,7 +62,9 @@ public class DAOPerson {
         registros = prepState.executeUpdate();
 
         ConnectionJDBC.close(prepState);
-        ConnectionJDBC.close(conn);
+        if (this.transaConnection == null){
+            ConnectionJDBC.close(conn);
+        }
         return registros;
     }
     //Sentence DML - Delete
@@ -61,13 +73,16 @@ public class DAOPerson {
         PreparedStatement prepState = null;
         int registros = 0;
 
-        conn = ConnectionJDBC.getConnection();
+        //If the transactional connection object is not null then we use transactional connection, otherwise we get a new connection
+        conn = this.transaConnection != null ? this.transaConnection : ConnectionJDBC.getConnection();
         prepState = conn.prepareStatement(SQL_DELETE);
         prepState.setInt(1, person.getUsernameid());
         registros = prepState.executeUpdate();
 
         ConnectionJDBC.close(prepState);
-        ConnectionJDBC.close(conn);
+        if (this.transaConnection == null){
+            ConnectionJDBC.close(conn);
+        }
 
         return registros;
     }
@@ -77,7 +92,8 @@ public class DAOPerson {
         PreparedStatement prepState = null;
         int registros = 0;
 
-        conn = ConnectionJDBC.getConnection();
+        //If the transactional connection object is not null then we use transactional connection, otherwise we get a new connection
+        conn = this.transaConnection != null ? this.transaConnection : ConnectionJDBC.getConnection();
         prepState = conn.prepareStatement(SQL_UPDATE);
         prepState.setString(1, person.getName());
         prepState.setString(2, person.getLastname());
@@ -87,7 +103,9 @@ public class DAOPerson {
         registros = prepState.executeUpdate();
 
         ConnectionJDBC.close(prepState);
-        ConnectionJDBC.close(conn);
+        if (this.transaConnection == null){
+            ConnectionJDBC.close(conn);
+        }
 
         return registros;
     }

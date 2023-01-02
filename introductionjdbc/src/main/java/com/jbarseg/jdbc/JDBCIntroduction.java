@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public final class HandlingJDBC {
+public final class JDBCIntroduction {
     public static void main(String[] args) throws SQLException {
         //Connection String
         String url = "jdbc:mysql://localhost:3306/test?useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true";
