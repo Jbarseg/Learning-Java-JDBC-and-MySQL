@@ -2,8 +2,9 @@
 
 # Select your language of preference / Selecciona el lenguaje de tu preferencia
 
-[Ingles](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.en.md)
-[Español](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.md)
+## [English](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.en.md)
+
+## [Español](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.es.md)
 
 ## Creando nuestra primera base de datos en MySQL
 
