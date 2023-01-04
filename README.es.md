@@ -6,61 +6,61 @@
 
 - ## [Español](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.es.md)
 
-## Creando nuestra primera base de datos en MySQL
+# Descargando, instalando y creando nuestra primera base de datos en MySQL
 
-El primer paso que tienes que hacer es descargar MySQL en el siguiente enlace: [Instalador MySQL](https://dev.mysql.com/downloads/windows/installer/8.0.html).
+1. Lo que tienes que hacer es descargar MySQL en el siguiente enlace: [Instalador MySQL](https://dev.mysql.com/downloads/windows/installer/8.0.html).
 
-Al instalar MySQL, debe elegir la versión del servidor MySQL y la versión de MySQL Workbench que prefiera.
+2. Al instalar MySQL, debe elegir la versión del servidor MySQL y la versión de MySQL Workbench que prefiera.
 
-When we already install MySQL, we proceed to create a new database, you can ask for all the steps to create a new database on [ChatGPT](https://chat.openai.com/chat).
+3. Configure la instalación segun lo que usted necesite e instale MySQL Workbench
 
-SQL is Structured Query Language
+**_ Cuando ya instalamos MySQL, procedemos a crear una nueva base de datos, puedes consultar todos los pasos para crear una nueva base de datos en [ChatGPT](https://chat.openai.com/chat) o seguir leyendo este archivo. _**
 
-# Learning how to use MySQL Workbench
+# Aprendiendo como usar MySQL Workbench
 
-## What we can do to create a new database is to click on Database and follow the next steps:
+## Creando una nueva base de datos:
 
-Important: A database schema defines how data is organized within a relational database
+**_ Importante: un esquema de base de datos define cómo se organizan los datos dentro de una base de datos relacional _**
 
-1. Click Connect to Database
+1. Haga click en Connect to Database
 
 ![Connect to Database](https://www.mysqltutorial.org/wp-content/uploads/2019/09/connect-to-mysql-mysql-workbench-step-1.png)
 
-2. You can then choose the hostname and port of your server and also the username and password of the person who manages the database.
+2. Luego puede elegir el nombre de host y el puerto de su servidor y también el nombre de usuario y la contraseña de la persona que administra la base de datos.
 
 ![Database Config](https://learn.microsoft.com/en-us/azure/mysql/single-server/media/connect-workbench/2-setup-new-connection.png)
 
-3. On the left you can find Administration and Schemas.
-4. To create a new schema, we can use the right mouse button to choose Create schema and choose the name of our new Schema.
-5. Then we can find on the left all the things we can do or edit with our new database. We can also ask ChatGPT if it doesn't find a setting you want to edit.
+3. A la izquierda puede encontrar Administración y Esquemas. Para crear un nuevo esquema, podemos usar el botón derecho del mouse para elegir Crear esquema y elegir el nombre de nuestro nuevo Esquema.
 
-## MySQL Workbench Tables
+![Database Schemas](https://itknowledgeexchange.techtarget.com/coffee-talk/files/2020/06/create-mysql-schema.png)
 
-If you want to organize all your data in our new database, what you can do is create a table in MySQL Workbench
+**_ 4. Luego podemos encontrar a la izquierda todas las cosas que podemos hacer o editar con nuestra nueva base de datos. También podemos preguntarle a [ChatGPT](https://chat.openai.com/chat) si no encontramos una configuración que deseemos editar. _**
 
-A table is used to organize data in the form of rows and columns and used for both storing and displaying records in the structure format.
+## Entendiendo MySQL Workbench Tables
 
-EXAMPLE: If we create a person name table and want the table to organize a number of people or users, we might like to add some variables to our new table such as user id, first name, last name, email , etc. So when we create the table we can create these variables and then we can choose some characteristics for these new variables
+**_ Si quieres organizar todos tus datos en nuestra nueva base de datos, lo que puedes hacer es crear una tabla en MySQL Workbench. _** Una tabla se usa para organizar datos en forma de filas y columnas y se usa tanto para almacenar como para mostrar registros en el formato de estructura.
+
+_ EJEMPLO: Si creamos una tabla de nombres de personas y queremos que la tabla organice una cantidad de personas o usuarios, es posible que deseemos agregar algunas variables a nuestra nueva tabla, como identificación de usuario, nombre, apellido, correo electrónico, etc. Entonces, cuando creamos la tabla podemos crear estas variables y luego podemos elegir algunas características para estas nuevas variables. _
 
 ## Table Variables Characteristics or available Types of Data:
 
- PK (Belongs to primary key): A primary key in a MySQL table is a field or set of fields that uniquely identifies each row in the table. It is used to ensure the integrity of the data and to establish relationships between tables in the database. The primary key must contain a unique value for each row and cannot contain NULL values. It is specified using the PRIMARY KEY constraint when creating the table.
+- **_ PK (Belongs to primary key): _** Una clave principal en una tabla MySQL es un campo o conjunto de campos que identifica de forma única cada fila de la tabla. Se utiliza para asegurar la integridad de los datos y establecer relaciones entre las tablas de la base de datos. La clave principal debe contener un valor único para cada fila y no puede contener valores NULL. Se especifica mediante la restricción PRIMARY KEY al crear la tabla.
 
- NN (Not Null): The NOT NULL constraint in MySQL is used to specify that a particular column in a table cannot contain a NULL value. This means that every row in the table must have a non-NULL value for that column. The NOT NULL constraint is often used in conjunction with the PRIMARY KEY constraint to ensure that the primary key column always has a unique, non-NULL value. It helps to ensure the integrity of the data in the table and can be specified when creating the table using the NOT NULL keyword.
+- **_ NN (Not Null): _** La restricción NOT NULL en MySQL se usa para especificar que una columna en particular en una tabla no puede contener un valor NULL. Esto significa que cada fila de la tabla debe tener un valor no NULL para esa columna. La restricción NOT NULL se usa a menudo junto con la restricción PRIMARY KEY para garantizar que la columna de clave principal siempre tenga un valor único, no NULL. Ayuda a garantizar la integridad de los datos de la tabla y se puede especificar al crear la tabla con la palabra clave NOT NULL.
 
- UQ (Unique index): The UNIQUE constraint in MySQL is used to ensure that the values in a particular column (or set of columns) are unique across all rows in the table. This means that no two rows can have the same value for the specified column (or set of columns). The UNIQUE constraint is similar to the PRIMARY KEY constraint, but it allows for NULL values and does not automatically create an index for the column (or set of columns). It is often used to enforce business rules or to prevent data inconsistencies, and it can be specified when creating a table using the UNIQUE keyword.
+- **_ UQ (Unique index): _** La restricción ÚNICA en MySQL se usa para garantizar que los valores en una columna particular (o conjunto de columnas) sean únicos en todas las filas de la tabla. Esto significa que dos filas no pueden tener el mismo valor para la columna especificada (o conjunto de columnas). La restricción UNIQUE es similar a la restricción PRIMARY KEY, pero permite valores NULL y no crea automáticamente un índice para la columna (o conjunto de columnas). A menudo se usa para hacer cumplir las reglas comerciales o para evitar inconsistencias en los datos, y se puede especificar al crear una tabla con la palabra clave UNIQUE.
 
- B (Is binary column): In MySQL, the BINARY data type is used to store fixed-length binary strings. It is similar to the CHAR data type, but it stores binary data rather than character data. The BINARY data type is often used to store data that is not human-readable, such as cryptographic hashes or images. It is defined with a specific length, such as BINARY(60), which specifies that it can store a binary string up to 60 bytes in size. The BINARY data type is often used in conjunction with other data types, such as VARBINARY, which is a variable-length binary string data type.
+- **_ B (Is binary column): _** En MySQL, el tipo de datos BINARY se usa para almacenar cadenas binarias de longitud fija. Es similar al tipo de datos CHAR, pero almacena datos binarios en lugar de datos de caracteres. El tipo de datos BINARY se usa a menudo para almacenar datos que no son legibles por humanos, como hashes criptográficos o imágenes. Se define con una longitud específica, como BINARY(60), que especifica que puede almacenar una cadena binaria de hasta 60 bytes de tamaño. El tipo de datos BINARY se usa a menudo junto con otros tipos de datos, como VARBINARY, que es un tipo de datos de cadena binaria de longitud variable.
 
- UN (Unsigned data type): In MySQL, the UNSIGNED attribute is used to specify that an integer data type should only contain positive values. It is often used with the INT or BIGINT data types to ensure that the column only contains positive integers. The UNSIGNED attribute is specified when creating the table, and it ensures that the column does not contain negative values. It can only be used with integer data types and cannot be used with floating-point or decimal data types.
+- **_ UN (Unsigned data type): _** En MySQL, el atributo UNSIGNED se usa para especificar que un tipo de datos entero solo debe contener valores positivos. A menudo se usa con los tipos de datos INT o BIGINT para garantizar que la columna solo contenga números enteros positivos. El atributo UNSIGNED se especifica al crear la tabla y garantiza que la columna no contenga valores negativos. Solo se puede usar con tipos de datos enteros y no se puede usar con tipos de datos decimales o de coma flotante.
 
- AI (Auto Incremental): In MySQL, the AUTO_INCREMENT attribute is used to specify that an integer column should automatically increment its value whenever a new row is inserted into the table. It is often used to create a unique identifier for each row, such as a customer ID or order number. The AUTO_INCREMENT attribute can only be used with integer data types and the column must also be marked as the primary key of the table. It is specified when creating the table using the AUTO_INCREMENT keyword. When a new row is inserted, the AUTO_INCREMENT column is automatically assigned a unique value that is one higher than the previous highest value.
+- **_ AI (Auto incremental): _** En MySQL, el atributo AUTO_INCREMENT se usa para especificar que una columna de enteros debe incrementar automáticamente su valor cada vez que se inserta una nueva fila en la tabla. A menudo se usa para crear un identificador único para cada fila, como una identificación de cliente o un número de pedido. El atributo AUTO_INCREMENT solo se puede usar con tipos de datos enteros y la columna también debe marcarse como la clave principal de la tabla. Se especifica al crear la tabla usando la palabra clave AUTO_INCREMENT. Cuando se inserta una nueva fila, a la columna AUTO_INCREMENT se le asigna automáticamente un valor único que es uno más alto que el valor más alto anterior.
 
- G (Generated Column): In MySQL, a generated column is a virtual column that is not physically stored on disk and does not consume any storage space. It is derived from the values of other columns in the table and is automatically updated whenever the values of the underlying columns change. Generated columns can be either STORED or VIRTUAL. A STORED generated column is computed when the row is inserted or updated, and its value is stored on disk in the table. A VIRTUAL generated column is not stored on disk and is computed on-the-fly whenever it is queried. Generated columns can be useful for storing computed values that are frequently used in queries, as they can improve query performance by avoiding the need to recalculate the values each time they are needed. They are specified when creating the table using the AS keyword.
+- **_ G (Generated Column): _** En MySQL, una columna generada es una columna virtual que no se almacena físicamente en el disco y no consume espacio de almacenamiento. Se deriva de los valores de otras columnas de la tabla y se actualiza automáticamente cada vez que cambian los valores de las columnas subyacentes. Las columnas generadas pueden ser ALMACENADAS o VIRTUAL. Una columna generada ALMACENADA se calcula cuando la fila se inserta o actualiza, y su valor se almacena en el disco en la tabla. Una columna generada VIRTUAL no se almacena en el disco y se calcula sobre la marcha cada vez que se consulta. Las columnas generadas pueden ser útiles para almacenar valores calculados que se usan con frecuencia en las consultas, ya que pueden mejorar el rendimiento de las consultas al evitar la necesidad de volver a calcular los valores cada vez que se necesitan. Se especifican al crear la tabla usando la palabra clave AS.
 
- This information was provided by an AI language model trained by OpenAI.
+**_ Esta información fue proporcionada por un modelo de lenguaje de IA entrenado por OpenAI. _**
 
-## DML Sentences
+## Sentencias DML
 
 ## Some of the DML Sentences that are available are:
 
