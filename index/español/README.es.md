@@ -2,9 +2,9 @@
 
 # Select your language of preference / Selecciona el lenguaje de tu preferencia
 
-- ## [English](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.en.md)
+- ## [English](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/tree/master/index/english)
 
-- ## [Español](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.es.md)
+- ## [Español](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README.es.md)
 
 # Descargando, instalando y creando nuestra primera base de datos en MySQL
 
@@ -20,19 +20,19 @@
 
 ## Aprendiendo como usar MySQL Workbench
 
-- ## [Creating a new Database](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.en.md)
+- ## [Creating a new Database](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README-CREATING-A-NEW-DATABASE.es.md)
 
-- ## [Tables](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.es.md)
+- ## [Tables](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README-TABLES.es.md)
 
-- ## [Types of data](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.es.md)
+- ## [Types of data](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README-TYPES-OF-DATA.es.md)
 
-- ## [DML Sentences](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.es.md)
+- ## [DML Sentences](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README-DML-SENTENCES.es.md)
 
 ## Aprendiendo como usar JDBC
 
-- ## [Java Database Connectivity (JDBC)](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.es.md)
+- ## [Java Database Connectivity (JDBC)](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README-JDBC.es.md)
 
 ## Transacciones
 
-- ## [Transactions](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.es.md)
+- ## [Transactions](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README-TRANSACTIONS.es.md)
 

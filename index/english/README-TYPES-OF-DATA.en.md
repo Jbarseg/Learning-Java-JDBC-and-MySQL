@@ -1,8 +1,8 @@
 ## Select your language of preference / Selecciona el lenguaje de tu preferencia
 
-- ## [English](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.en.md)
+- ## [English](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/english/README-TYPES-OF-DATA.en.md)
 
-- ## [Español](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.es.md)
+- ## [Español](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README-TYPES-OF-DATA.es.md)
 
 # Table Variables Characteristics or available Types of Data:
 

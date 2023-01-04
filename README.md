@@ -2,9 +2,9 @@
 
 ## Select your language of preference / Selecciona el lenguaje de tu preferencia
 
-- ## [English](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.en.md)
+- ## [English](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/tree/master/index/english)
 
-- ## [Español](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.es.md)
+- ## [Español](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README.es.md)
 
 # Downloading, installing and creating our first MySQL database
 
@@ -20,18 +20,18 @@
 
 ## Learning how to use MySQL Workbench
 
-- ## [Creating a new Database](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.en.md)
+- ## [Creating a new Database](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/english/README-CREATING-A-NEW-DATABASE.en.md)
 
-- ## [Tables](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.es.md)
+- ## [Tables](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/english/README-TABLES.en.md)
 
-- ## [Types of data](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.es.md)
+- ## [Types of data](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/english/README-TYPES-OF-DATA.en.md)
 
-- ## [DML Sentences](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.es.md)
+- ## [DML Sentences](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/english/README-DML-SENTENCES.en.md)
 
 ## Learning how to use JDBC
 
-- ## [Java Database Connectivity (JDBC)](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.es.md)
+- ## [Java Database Connectivity (JDBC)](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/english/README-JDBC.en.md)
 
 ## Transactions
 
-- ## [Transactions](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.es.md)
+- ## [Transactions](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/english/README-TRANSACTIONS.en.md)
