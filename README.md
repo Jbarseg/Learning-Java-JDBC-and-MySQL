@@ -1,8 +1,15 @@
-# Learning JDBC and MySQL - Java
+# Aprendiendo JDBC y MySQL - Java
 
-The first step you have to do is download MySQL at the following link: [MySQL Installer](https://dev.mysql.com/downloads/windows/installer/8.0.html).
+# Select your language of preference / Selecciona el lenguaje de tu preferencia
 
-When installing MySQL, you must choose your preferred MySQL server version and MySQL Workbench version.
+[English](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.en.md)
+[Español](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.es.md)
+
+## Creando nuestra primera base de datos en MySQL
+
+El primer paso que tienes que hacer es descargar MySQL en el siguiente enlace: [Instalador MySQL](https://dev.mysql.com/downloads/windows/installer/8.0.html).
+
+Al instalar MySQL, debe elegir la versión del servidor MySQL y la versión de MySQL Workbench que prefiera.
 
 When we already install MySQL, we proceed to create a new database, you can ask for all the steps to create a new database on [ChatGPT](https://chat.openai.com/chat).
 
