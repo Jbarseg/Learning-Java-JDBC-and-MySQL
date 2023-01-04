@@ -2,9 +2,9 @@
 
 # Select your language of preference / Selecciona el lenguaje de tu preferencia
 
-## [English](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.en.md)
+- ## [English](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.en.md)
 
-## [Español](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.es.md)
+- ## [Español](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/README.es.md)
 
 The first step you have to do is download MySQL at the following link: [MySQL Installer](https://dev.mysql.com/downloads/windows/installer/8.0.html).
 
