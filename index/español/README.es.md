@@ -6,6 +6,8 @@
 
 - ## [Español](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/español/README.es.md)
 
+- ## [Regresar/](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/español/README.es.md)
+
 # Descargando, instalando y creando nuestra primera base de datos en MySQL
 
 1. Lo que tienes que hacer es descargar MySQL en el siguiente enlace: [Instalador MySQL](https://dev.mysql.com/downloads/windows/installer/8.0.html).
@@ -20,13 +22,13 @@
 
 ## Aprendiendo como usar MySQL Workbench
 
-- ## [Creating a new Database](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README-CREATING-A-NEW-DATABASE.es.md)
+- ## [Creando una nueva base de datos](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README-CREATING-A-NEW-DATABASE.es.md)
 
-- ## [Tables](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README-TABLES.es.md)
+- ## [Tablas](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README-TABLES.es.md)
 
-- ## [Types of data](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README-TYPES-OF-DATA.es.md)
+- ## [Tipos de datos](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README-TYPES-OF-DATA.es.md)
 
-- ## [DML Sentences](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README-DML-SENTENCES.es.md)
+- ## [Sentencias DML](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README-DML-SENTENCES.es.md)
 
 ## Aprendiendo como usar JDBC
 
@@ -34,5 +36,5 @@
 
 ## Transacciones
 
-- ## [Transactions](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README-TRANSACTIONS.es.md)
+- ## [Transacciones](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README-TRANSACTIONS.es.md)
 
