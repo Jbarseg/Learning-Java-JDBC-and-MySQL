@@ -6,7 +6,7 @@
 
 - ## [Español](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/español/README.es.md)
 
-- ## [Regresar/](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/español/README.es.md)
+- ## [Comeback/Regresar](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL)
 
 # Descargando, instalando y creando nuestra primera base de datos en MySQL
 

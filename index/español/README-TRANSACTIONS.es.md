@@ -4,6 +4,8 @@
 
 - ## [Español](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README-TRANSACTIONS.es.md)
 
+- ## [Comeback/Regresar](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL)
+
 # Transacciones
 
   Para usar transacciones como confirmación o reversión, no podemos tener conexiones diferentes a las que tenemos en [ManejandoJDBC-DAOPerson](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/handlingjdbc/src/main/java/com/jbarseg/jdbc/DAOPerson.java). Como puede ver si ingresa al enlace, tenemos diferentes conexiones a nuestra base de datos en cada método para cada Sentencia DML. Esto es lo que tenemos que cambiar cuando estamos trabajando con [Transacciones de JDBC](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/tree/master/transactionsjdbc).
