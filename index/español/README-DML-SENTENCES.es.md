@@ -6,29 +6,26 @@
 
 # Sentencias DML
 
-## Some of the DML Sentences that are available are:
+## Algunas de las Sentencias DML que están disponibles son:
 
-Important: DML is Data Manipulation Language
+**Importante: DML es un lenguaje de manipulación de datos**
 
-- SELECT: We can select a specific table or variable of a table to filter data.
+- **_SELECT:_** **Podemos seleccionar una tabla específica o variable de una tabla para filtrar datos.**
 
-  SELECT * FROM SchemaName.TableName; or SELECT * FROM SchemaName.TableName WHERE usernameid = 1;
+  - *SELECT * FROM SchemaName.TableName; or SELECT * FROM SchemaName.TableName WHERE usernameid = ?;*
 
-- INSERT: We can insert some values to our Table variables
+- **_INSERT:_** **Podemos insertar algunos valores en nuestras variables de tabla.**
 
-  INSERT INTO TableName(DataNames) VALUES(value to each variable separated by commas);
+  - *INSERT INTO TableName(DataNames) VALUES(value to each variable separated by commas);*
 
-  Example: INSERT INTO test.person(lastname, name, email, phonenumber) VALUES ('Doe', 'John', 'johndoe33@gmail.com', +50689960119);
-  In this example we are going to insert some values to our variables lastname, name, email and phone-number
+  *Example: INSERT INTO test.person(lastname, name, email, phonenumber) VALUES ('Doe', 'John', 'johndoe33@gmail.com', +50689960119);*
 
-- UPDATE: We can update or change a value of a Table Variable
+- **_UPDATE:_** **Podemos actualizar o cambiar un valor de una variable de tabla**
 
-  UPDATE 'SchemaName'.'TableName' SET 'DataNameThatYouWantToChange' = 'Value' WHERE ('usernameid' = '1');
+  - UPDATE 'SchemaName'.'TableName' SET 'DataNameThatYouWantToChange' = 'Value' WHERE ('usernameid' = '?');
 
-  Example: UPDATE 'test'.'person' SET 'email' = 'johndoe33@doe.com' WHERE ('usernameid' = '1');
+  *Example: UPDATE 'test'.'person' SET 'email' = 'johndoe33@doe.com' WHERE ('usernameid' = '1');*
 
-  In this example we are going to update the email value that we had before and were going to change that value for another one.
+- **_DELETE:_** **Podemos eliminar una variable específica de nuestra tabla o todos los datos de nuestra tabla.**
 
-- DELETE: We can delete a specific variable of our table or all our table data.
-
-  DELETE FROM 'TableName' WHERE usernameid = 1;
+  - DELETE FROM 'TableName' WHERE usernameid = ?;

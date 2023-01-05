@@ -8,27 +8,27 @@
 
 ## Some of the DML Sentences that are available are:
 
-Important: DML is Data Manipulation Language
+**Important: DML is Data Manipulation Language**
 
-- SELECT: We can select a specific table or variable of a table to filter data.
+- **_SELECT:_** **We can select a specific table or variable of a table to filter data.**
 
-  SELECT * FROM SchemaName.TableName; or SELECT * FROM SchemaName.TableName WHERE usernameid = 1;
+  - *SELECT * FROM SchemaName.TableName; or SELECT * FROM SchemaName.TableName WHERE usernameid = ?;*
 
-- INSERT: We can insert some values to our Table variables
+- **_INSERT:_** **We can insert some values to our Table variables.**
 
-  INSERT INTO TableName(DataNames) VALUES(value to each variable separated by commas);
+  - *INSERT INTO TableName(DataNames) VALUES(value to each variable separated by commas);*
 
-  Example: INSERT INTO test.person(lastname, name, email, phonenumber) VALUES ('Doe', 'John', 'johndoe33@gmail.com', +50689960119);
-  In this example we are going to insert some values to our variables lastname, name, email and phone-number
+  *Example: INSERT INTO test.person(lastname, name, email, phonenumber) VALUES ('Doe', 'John', 'johndoe33@gmail.com', +50689960119);*
+  *In this example we are going to insert some values to our variables lastname, name, email and phone-number*
 
-- UPDATE: We can update or change a value of a Table Variable
+- **_UPDATE:_** **We can update or change a value of a Table Variable**
 
-  UPDATE 'SchemaName'.'TableName' SET 'DataNameThatYouWantToChange' = 'Value' WHERE ('usernameid' = '1');
+  - UPDATE 'SchemaName'.'TableName' SET 'DataNameThatYouWantToChange' = 'Value' WHERE ('usernameid' = '?');
 
-  Example: UPDATE 'test'.'person' SET 'email' = 'johndoe33@doe.com' WHERE ('usernameid' = '1');
+  *Example: UPDATE 'test'.'person' SET 'email' = 'johndoe33@doe.com' WHERE ('usernameid' = '1');*
 
-  In this example we are going to update the email value that we had before and were going to change that value for another one.
+  *In this example we are going to update the email value that we had before and were going to change that value for another one.*
 
-- DELETE: We can delete a specific variable of our table or all our table data.
+- **_DELETE:_** **We can delete a specific variable of our table or all our table data.**
 
-  DELETE FROM 'TableName' WHERE usernameid = 1;
+  - DELETE FROM 'TableName' WHERE usernameid = ?;
