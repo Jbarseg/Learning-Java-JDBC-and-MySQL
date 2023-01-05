@@ -18,6 +18,8 @@
 
 **_Cuando ya instalamos MySQL, procedemos a crear una nueva base de datos, puedes consultar todos los pasos para crear una nueva base de datos en [ChatGPT](https://chat.openai.com/chat) o seguir leyendo este archivo._**
 
+TE AMO LOQUILLO
+
 # Indice
 
 ## Aprendiendo como usar MySQL Workbench
