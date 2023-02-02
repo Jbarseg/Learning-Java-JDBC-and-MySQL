@@ -1,7 +1,7 @@
 package com.jbarseg.jdbc;
 
+import java.util.*;
 import java.sql.SQLException;
-import java.util.List;
 
 public class MainHandlingJDBC {
     public static void main (String[]args) throws SQLException {

@@ -35,3 +35,9 @@
 ## Transactions
 
 - ## [Transactions](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/english/README-TRANSACTIONS.en.md)
+
+# Excercises
+
+|     Excercises      |       Statement      |      Solution     |
+| ------------------- | -------------------- | ----------------- |
+| Inputs and Outputs  |                      |                   |

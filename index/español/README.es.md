@@ -38,3 +38,8 @@
 
 - ## [Transacciones](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/espa%C3%B1ol/README-TRANSACTIONS.es.md)
 
+# Ejercicios
+
+|     Ejercicios      |       Enunciado      |      Solución     |
+| ------------------- | -------------------- | ----------------- |
+| Inputs and Outputs  |                      |                   |

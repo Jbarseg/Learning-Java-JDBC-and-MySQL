@@ -6,10 +6,10 @@ public class Person {
     private String lastname;
     private String email;
     private String phonenumber;
-    
+
     public Person() {
     }
-    
+
     public Person(int usernameid) {
         this.usernameid = usernameid;
     }
